@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "foodProject.app"
-               BlueprintName = "foodProject"
-               ReferencedContainer = "container:foodProject.xcodeproj">
+               BuildableName = "evento.app"
+               BlueprintName = "evento"
+               ReferencedContainer = "container:evento.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "foodProjectTests.xctest"
-               BlueprintName = "foodProjectTests"
-               ReferencedContainer = "container:foodProject.xcodeproj">
+               BuildableName = "eventoTests.xctest"
+               BlueprintName = "eventoTests"
+               ReferencedContainer = "container:evento.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "foodProject.app"
-            BlueprintName = "foodProject"
-            ReferencedContainer = "container:foodProject.xcodeproj">
+            BuildableName = "evento.app"
+            BlueprintName = "evento"
+            ReferencedContainer = "container:evento.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "foodProject.app"
-            BlueprintName = "foodProject"
-            ReferencedContainer = "container:foodProject.xcodeproj">
+            BuildableName = "evento.app"
+            BlueprintName = "evento"
+            ReferencedContainer = "container:evento.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
