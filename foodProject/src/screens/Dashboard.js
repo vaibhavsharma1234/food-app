@@ -6,10 +6,23 @@ import Items from '../tabs/Items';
 import Transactions from '../tabs/Transactions';
 import Add from '../tabs/Add';
 import Orders from '../tabs/Orders';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import Notifications from '../tabs/Notifications';
-
+import { useNavigation } from '@react-navigation/native';
 const Dashboard = () => {
   const [selectedTab, setSelectedTab] = useState(0);
+  const navigation = useNavigation();
+  const handleLogout = async () => {
+    try {
+      // Remove the user's email from AsyncStorage
+      await AsyncStorage.removeItem('EMAIL');
+
+      // Navigate to the select login page or the login screen of your choice
+      navigation.navigate('SelectLogin'); // Replace 'SelectLogin' with your actual login screen name
+    } catch (error) {
+      console.error('Error logging out:', error);
+    }
+  };
   return (
     <View style={styles.container}>
       {selectedTab == 0 ? (
@@ -42,16 +55,17 @@ const Dashboard = () => {
             style={[styles.bottomTabImage, {height: 35, width: 35},{tintColor:selectedTab==2?'red':'black'}]}
           />
         </TouchableOpacity>
-        <TouchableOpacity style={[styles.bottomTab]} onPress={()=>setSelectedTab(3)}>
-          <Image
-            source={require('../images/orders.png')}
-            style={[styles.bottomTabImage,,{tintColor:selectedTab==3?'red':'black'}]}
-          />
-        </TouchableOpacity>
+
         <TouchableOpacity style={[styles.bottomTab]} onPress={()=>setSelectedTab(4)}>
           <Image
             source={require('../images/notification.png')}
             style={[styles.bottomTabImage,,{tintColor:selectedTab==4?'red':'black'}]}
+          />
+        </TouchableOpacity>
+        <TouchableOpacity style={[styles.bottomTab]} onPress={handleLogout}>
+          <Image
+            source={require('../images/logout.png')}
+            style={[styles.bottomTabImage,,{tintColor:selectedTab==3?'red':'black'}]}
           />
         </TouchableOpacity>
       </View>

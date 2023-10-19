@@ -1,6 +1,7 @@
 import {View, Text, StyleSheet, TouchableOpacity, Alert} from 'react-native';
 import React, { useEffect, useState } from 'react';
 import {TextInput} from 'react-native-gesture-handler';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import firestore from '@react-native-firebase/firestore';
 const Login = ({navigation}) => {
   const [email,setEmail]=useState("");
@@ -21,6 +22,7 @@ const Login = ({navigation}) => {
   const getData=async()=>{
     const users = await firestore().collection('admin').get();
     if(email===users.docs[0]._data.email && password===users.docs[0]._data.password){
+      await AsyncStorage.setItem('EMAIL', email);
       navigation.navigate('Dashboard')
     }else{
       alert('wrong email and password')
