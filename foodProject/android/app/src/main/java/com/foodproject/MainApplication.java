@@ -1,4 +1,5 @@
 package com.foodproject;
+import com.th3rdwave.safeareacontext.SafeAreaContextPackage;
 
 import android.app.Application;
 import com.facebook.react.PackageList;
@@ -25,6 +26,8 @@ public class MainApplication extends Application implements ReactApplication {
           List<ReactPackage> packages = new PackageList(this).getPackages();
           // Packages that cannot be autolinked yet can be added manually here, for example:
           // packages.add(new MyReactNativePackage());
+           packages.add(new SafeAreaContextPackage());
+          
           return packages;
         }
 

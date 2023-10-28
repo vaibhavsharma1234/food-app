@@ -1,33 +1,22 @@
-import {View, Text, StyleSheet, TouchableOpacity, Alert} from 'react-native';
-import React, { useEffect, useState } from 'react';
-import {TextInput} from 'react-native-gesture-handler';
+import React, { useState } from 'react';
+import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
+import { TextInput } from 'react-native-gesture-handler';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import firestore from '@react-native-firebase/firestore';
-const Login = ({navigation}) => {
-  const [email,setEmail]=useState("");
-  const [password,setPassword]=useState("");
-  // useEffect(()=>{
-  //   // firestore()
-  //   // .collection('admin')
-  //   // .add({
-  //   //   email: 'admin@gmail.com',
-  //   //   password: 'admin1234',
-  //   // })
-  //   // .then(() => {
-  //   //   console.log('admin added!');
-  //   // });
-  //   // this above is done once 
-  //   getData()
-  // },[])
-  const getData=async()=>{
-    const users = await firestore().collection('admin').get();
-    if(email===users.docs[0]._data.email && password===users.docs[0]._data.password){
-      navigation.navigate('Dashboard')
-    }else{
-      alert('wrong email and password')
-    }
-    console.warn(users.docs[0]._data)
-  }
 
+const Login = ({ navigation }) => {
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+
+  const getData = async () => {
+    const users = await firestore().collection('admin').get();
+    if (email === users.docs[0]._data.email && password === users.docs[0]._data.password) {
+      await AsyncStorage.setItem('EMAIL', email);
+      navigation.navigate('Dashboard');
+    } else {
+      Alert.alert('Error', 'Wrong email and password');
+    }
+  };
 
   return (
     <View style={styles.container}>
@@ -35,23 +24,23 @@ const Login = ({navigation}) => {
       <TextInput
         style={styles.inputStyle}
         placeholder="Enter Email ID"
-        placeholderTextColor="black"
-        
+        placeholderTextColor="#000"
         value={email}
-        onChangeText={txt=>setEmail(txt)}
+        onChangeText={(text) => setEmail(text)}
       />
       <TextInput
         style={styles.inputStyle}
         placeholder="Enter Password"
-        placeholderTextColor="black"
+        placeholderTextColor="#000"
+        secureTextEntry={true}
         value={password}
-        onChangeText={txt=>setPassword(txt)}
+        onChangeText={(text) => setPassword(text)}
       />
-      <TouchableOpacity style={styles.loginBtn} onPress={()=>{
-        if(email!==""  && password!==""){
-          getData()
-        }else{
-          alert("please enter all details")
+      <TouchableOpacity style={styles.loginBtn} onPress={() => {
+        if (email !== "" && password !== "") {
+          getData();
+        } else {
+          Alert.alert("Error", "Please enter all details");
         }
       }}>
         <Text style={styles.btnText}>Login</Text>
@@ -59,45 +48,44 @@ const Login = ({navigation}) => {
     </View>
   );
 };
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   title: {
-    fontSize: 20,
-    fontWeight: '800',
+    fontSize: 24,
+    fontWeight: 'bold',
     color: '#000',
-    marginTop: 100,
-    alignSelf: 'center',
+    marginBottom: 20,
   },
   inputStyle: {
-    borderColor: '#000',
-    borderWidth: 2,
-    paddingLeft: 20,
-    height: 50,
-    color:'#000',
-    alignSelf: 'center',
-    marginTop: 30,
-    borderWidth: 0.5,
-    borderRadius: 10,
     width: '90%',
+    height: 50,
+    borderWidth: 2,
+    borderColor: 'black',
+    borderRadius: 10,
+    paddingLeft: 20,
+    marginTop: 20,
+    color: '#000',
   },
   loginBtn: {
     backgroundColor: 'orange',
-    height: 50,
     width: '90%',
-    alignSelf: 'center',
-    marginTop: 50,
+    height: 50,
     borderRadius: 10,
-    borderWidth: 0.5,
-    
-    justifyContent:'center',
-    alignItems:'center'
+    marginTop: 50,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
-  btnText:{
-    fontSize:18,
-    fontWeight:'600',
-    color:'#000'
-  }
+  btnText: {
+    fontSize: 18,
+    fontWeight: '600',
+    color: '#000',
+  },
 });
+
 export default Login;
