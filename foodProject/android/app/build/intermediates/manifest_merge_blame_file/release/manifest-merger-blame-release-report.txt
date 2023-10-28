@@ -1,0 +1,279 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.foodproject"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\vaibhav sharma\Desktop\food app\foodProject\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\vaibhav sharma\Desktop\food app\foodProject\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\vaibhav sharma\Desktop\food app\foodProject\android\app\src\main\AndroidManifest.xml:3:5-67
+11-->C:\Users\vaibhav sharma\Desktop\food app\foodProject\android\app\src\main\AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\Users\vaibhav sharma\Desktop\food app\foodProject\android\app\src\main\AndroidManifest.xml:4:5-79
+12-->C:\Users\vaibhav sharma\Desktop\food app\foodProject\android\app\src\main\AndroidManifest.xml:4:22-77
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->C:\Users\vaibhav sharma\Desktop\food app\foodProject\android\app\src\main\AndroidManifest.xml:5:5-64
+13-->C:\Users\vaibhav sharma\Desktop\food app\foodProject\android\app\src\main\AndroidManifest.xml:5:22-62
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->C:\Users\vaibhav sharma\Desktop\food app\foodProject\android\app\src\main\AndroidManifest.xml:6:7-82
+14-->C:\Users\vaibhav sharma\Desktop\food app\foodProject\android\app\src\main\AndroidManifest.xml:6:24-80
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->[:react-native-firebase_storage] C:\Users\vaibhav sharma\Desktop\food app\foodProject\node_modules\@react-native-firebase\storage\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:8:5-68
+15-->[:react-native-firebase_storage] C:\Users\vaibhav sharma\Desktop\food app\foodProject\node_modules\@react-native-firebase\storage\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:8:22-65
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[:react-native-firebase_storage] C:\Users\vaibhav sharma\Desktop\food app\foodProject\node_modules\@react-native-firebase\storage\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-79
+16-->[:react-native-firebase_storage] C:\Users\vaibhav sharma\Desktop\food app\foodProject\node_modules\@react-native-firebase\storage\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-76
+17    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+17-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\19d8c44f6706ccf38bd2a8b74af6a093\transformed\jetified-play-services-measurement-api-21.3.0\AndroidManifest.xml:25:5-79
+17-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\19d8c44f6706ccf38bd2a8b74af6a093\transformed\jetified-play-services-measurement-api-21.3.0\AndroidManifest.xml:25:22-76
+18    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+18-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\9cec9340120192a36e4fbcb9f8366ac9\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:26:5-110
+18-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\9cec9340120192a36e4fbcb9f8366ac9\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:26:22-107
+19
+20    <application
+20-->C:\Users\vaibhav sharma\Desktop\food app\foodProject\android\app\src\main\AndroidManifest.xml:9:5-28:19
+21        android:name="com.foodproject.MainApplication"
+21-->C:\Users\vaibhav sharma\Desktop\food app\foodProject\android\app\src\main\AndroidManifest.xml:10:7-38
+22        android:allowBackup="false"
+22-->C:\Users\vaibhav sharma\Desktop\food app\foodProject\android\app\src\main\AndroidManifest.xml:14:7-34
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.7.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\845c42ea617b425eb1fb868d75dc0e08\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+24        android:icon="@mipmap/ic_launcher"
+24-->C:\Users\vaibhav sharma\Desktop\food app\foodProject\android\app\src\main\AndroidManifest.xml:12:7-41
+25        android:label="@string/app_name"
+25-->C:\Users\vaibhav sharma\Desktop\food app\foodProject\android\app\src\main\AndroidManifest.xml:11:7-39
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->C:\Users\vaibhav sharma\Desktop\food app\foodProject\android\app\src\main\AndroidManifest.xml:13:7-52
+27        android:theme="@style/AppTheme" >
+27-->C:\Users\vaibhav sharma\Desktop\food app\foodProject\android\app\src\main\AndroidManifest.xml:15:7-38
+28        <activity
+28-->C:\Users\vaibhav sharma\Desktop\food app\foodProject\android\app\src\main\AndroidManifest.xml:16:7-27:18
+29            android:name="com.foodproject.MainActivity"
+29-->C:\Users\vaibhav sharma\Desktop\food app\foodProject\android\app\src\main\AndroidManifest.xml:17:9-37
+30            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+30-->C:\Users\vaibhav sharma\Desktop\food app\foodProject\android\app\src\main\AndroidManifest.xml:19:9-118
+31            android:exported="true"
+31-->C:\Users\vaibhav sharma\Desktop\food app\foodProject\android\app\src\main\AndroidManifest.xml:22:9-32
+32            android:label="@string/app_name"
+32-->C:\Users\vaibhav sharma\Desktop\food app\foodProject\android\app\src\main\AndroidManifest.xml:18:9-41
+33            android:launchMode="singleTask"
+33-->C:\Users\vaibhav sharma\Desktop\food app\foodProject\android\app\src\main\AndroidManifest.xml:20:9-40
+34            android:windowSoftInputMode="adjustResize" >
+34-->C:\Users\vaibhav sharma\Desktop\food app\foodProject\android\app\src\main\AndroidManifest.xml:21:9-51
+35            <intent-filter>
+35-->C:\Users\vaibhav sharma\Desktop\food app\foodProject\android\app\src\main\AndroidManifest.xml:23:9-26:25
+36                <action android:name="android.intent.action.MAIN" />
+36-->C:\Users\vaibhav sharma\Desktop\food app\foodProject\android\app\src\main\AndroidManifest.xml:24:13-65
+36-->C:\Users\vaibhav sharma\Desktop\food app\foodProject\android\app\src\main\AndroidManifest.xml:24:21-62
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->C:\Users\vaibhav sharma\Desktop\food app\foodProject\android\app\src\main\AndroidManifest.xml:25:13-73
+38-->C:\Users\vaibhav sharma\Desktop\food app\foodProject\android\app\src\main\AndroidManifest.xml:25:23-70
+39            </intent-filter>
+40        </activity>
+41
+42        <meta-data
+42-->[:react-native-firebase_app] C:\Users\vaibhav sharma\Desktop\food app\foodProject\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:9-11:36
+43            android:name="app_data_collection_default_enabled"
+43-->[:react-native-firebase_app] C:\Users\vaibhav sharma\Desktop\food app\foodProject\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:13-63
+44            android:value="true" />
+44-->[:react-native-firebase_app] C:\Users\vaibhav sharma\Desktop\food app\foodProject\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-33
+45
+46        <service
+46-->[:react-native-firebase_app] C:\Users\vaibhav sharma\Desktop\food app\foodProject\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:9-21:19
+47            android:name="com.google.firebase.components.ComponentDiscoveryService"
+47-->[:react-native-firebase_app] C:\Users\vaibhav sharma\Desktop\food app\foodProject\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-84
+48            android:directBootAware="true"
+48-->[:react-native-firebase_app] C:\Users\vaibhav sharma\Desktop\food app\foodProject\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-43
+49            android:exported="false" >
+49-->[:react-native-firebase_app] C:\Users\vaibhav sharma\Desktop\food app\foodProject\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:13-37
+50            <meta-data
+50-->[:react-native-firebase_app] C:\Users\vaibhav sharma\Desktop\food app\foodProject\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:18:13-20:85
+51                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+51-->[:react-native-firebase_app] C:\Users\vaibhav sharma\Desktop\food app\foodProject\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:19:17-120
+52                android:value="com.google.firebase.components.ComponentRegistrar" />
+52-->[:react-native-firebase_app] C:\Users\vaibhav sharma\Desktop\food app\foodProject\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:20:17-82
+53            <meta-data
+53-->[com.google.firebase:firebase-analytics-ktx:21.3.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\7f44eee6ee093e995bea47c78a04fa0c\transformed\jetified-firebase-analytics-ktx-21.3.0\AndroidManifest.xml:11:13-13:85
+54                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+54-->[com.google.firebase:firebase-analytics-ktx:21.3.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\7f44eee6ee093e995bea47c78a04fa0c\transformed\jetified-firebase-analytics-ktx-21.3.0\AndroidManifest.xml:12:17-126
+55                android:value="com.google.firebase.components.ComponentRegistrar" />
+55-->[com.google.firebase:firebase-analytics-ktx:21.3.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\7f44eee6ee093e995bea47c78a04fa0c\transformed\jetified-firebase-analytics-ktx-21.3.0\AndroidManifest.xml:13:17-82
+56            <meta-data
+56-->[com.google.firebase:firebase-firestore:24.7.1] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\c90640271300c8ac21fc17ee4d1602f7\transformed\jetified-firebase-firestore-24.7.1\AndroidManifest.xml:17:13-19:85
+57                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+57-->[com.google.firebase:firebase-firestore:24.7.1] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\c90640271300c8ac21fc17ee4d1602f7\transformed\jetified-firebase-firestore-24.7.1\AndroidManifest.xml:18:17-111
+58                android:value="com.google.firebase.components.ComponentRegistrar" />
+58-->[com.google.firebase:firebase-firestore:24.7.1] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\c90640271300c8ac21fc17ee4d1602f7\transformed\jetified-firebase-firestore-24.7.1\AndroidManifest.xml:19:17-82
+59            <meta-data
+59-->[com.google.firebase:firebase-common-ktx:20.3.3] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\e535bc6e6b565e5e2aaa21fae4230b5c\transformed\jetified-firebase-common-ktx-20.3.3\AndroidManifest.xml:14:13-16:85
+60                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+60-->[com.google.firebase:firebase-common-ktx:20.3.3] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\e535bc6e6b565e5e2aaa21fae4230b5c\transformed\jetified-firebase-common-ktx-20.3.3\AndroidManifest.xml:15:17-113
+61                android:value="com.google.firebase.components.ComponentRegistrar" />
+61-->[com.google.firebase:firebase-common-ktx:20.3.3] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\e535bc6e6b565e5e2aaa21fae4230b5c\transformed\jetified-firebase-common-ktx-20.3.3\AndroidManifest.xml:16:17-82
+62            <meta-data
+62-->[com.google.firebase:firebase-storage:20.2.1] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\e8ad0617c3b84c388989c58bb49ee53b\transformed\jetified-firebase-storage-20.2.1\AndroidManifest.xml:32:13-34:85
+63                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+63-->[com.google.firebase:firebase-storage:20.2.1] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\e8ad0617c3b84c388989c58bb49ee53b\transformed\jetified-firebase-storage-20.2.1\AndroidManifest.xml:33:17-107
+64                android:value="com.google.firebase.components.ComponentRegistrar" />
+64-->[com.google.firebase:firebase-storage:20.2.1] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\e8ad0617c3b84c388989c58bb49ee53b\transformed\jetified-firebase-storage-20.2.1\AndroidManifest.xml:34:17-82
+65            <meta-data
+65-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\19d8c44f6706ccf38bd2a8b74af6a093\transformed\jetified-play-services-measurement-api-21.3.0\AndroidManifest.xml:31:13-33:85
+66                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+66-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\19d8c44f6706ccf38bd2a8b74af6a093\transformed\jetified-play-services-measurement-api-21.3.0\AndroidManifest.xml:32:17-139
+67                android:value="com.google.firebase.components.ComponentRegistrar" />
+67-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\19d8c44f6706ccf38bd2a8b74af6a093\transformed\jetified-play-services-measurement-api-21.3.0\AndroidManifest.xml:33:17-82
+68            <meta-data
+68-->[com.google.firebase:firebase-installations:17.1.4] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\ca34656c20bef3cec328a2090c625fa8\transformed\jetified-firebase-installations-17.1.4\AndroidManifest.xml:15:13-17:85
+69                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+69-->[com.google.firebase:firebase-installations:17.1.4] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\ca34656c20bef3cec328a2090c625fa8\transformed\jetified-firebase-installations-17.1.4\AndroidManifest.xml:16:17-127
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[com.google.firebase:firebase-installations:17.1.4] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\ca34656c20bef3cec328a2090c625fa8\transformed\jetified-firebase-installations-17.1.4\AndroidManifest.xml:17:17-82
+71        </service>
+72
+73        <provider
+73-->[:react-native-firebase_app] C:\Users\vaibhav sharma\Desktop\food app\foodProject\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:23:9-27:38
+74            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+74-->[:react-native-firebase_app] C:\Users\vaibhav sharma\Desktop\food app\foodProject\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:24:13-88
+75            android:authorities="com.foodproject.reactnativefirebaseappinitprovider"
+75-->[:react-native-firebase_app] C:\Users\vaibhav sharma\Desktop\food app\foodProject\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:25:13-86
+76            android:exported="false"
+76-->[:react-native-firebase_app] C:\Users\vaibhav sharma\Desktop\food app\foodProject\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:26:13-37
+77            android:initOrder="99" />
+77-->[:react-native-firebase_app] C:\Users\vaibhav sharma\Desktop\food app\foodProject\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:27:13-35
+78        <provider
+78-->[:react-native-image-picker] C:\Users\vaibhav sharma\Desktop\food app\foodProject\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:8:9-16:20
+79            android:name="com.imagepicker.ImagePickerProvider"
+79-->[:react-native-image-picker] C:\Users\vaibhav sharma\Desktop\food app\foodProject\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:13-63
+80            android:authorities="com.foodproject.imagepickerprovider"
+80-->[:react-native-image-picker] C:\Users\vaibhav sharma\Desktop\food app\foodProject\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:13-71
+81            android:exported="false"
+81-->[:react-native-image-picker] C:\Users\vaibhav sharma\Desktop\food app\foodProject\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-37
+82            android:grantUriPermissions="true" >
+82-->[:react-native-image-picker] C:\Users\vaibhav sharma\Desktop\food app\foodProject\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-47
+83            <meta-data
+83-->[:react-native-image-picker] C:\Users\vaibhav sharma\Desktop\food app\foodProject\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-15:70
+84                android:name="android.support.FILE_PROVIDER_PATHS"
+84-->[:react-native-image-picker] C:\Users\vaibhav sharma\Desktop\food app\foodProject\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:17-67
+85                android:resource="@xml/imagepicker_provider_paths" />
+85-->[:react-native-image-picker] C:\Users\vaibhav sharma\Desktop\food app\foodProject\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:17-67
+86        </provider>
+87        <provider
+87-->[com.google.firebase:firebase-common:20.3.3] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\04618219489c9d9e3066293e05e86ee0\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:25:9-30:39
+88            android:name="com.google.firebase.provider.FirebaseInitProvider"
+88-->[com.google.firebase:firebase-common:20.3.3] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\04618219489c9d9e3066293e05e86ee0\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:26:13-77
+89            android:authorities="com.foodproject.firebaseinitprovider"
+89-->[com.google.firebase:firebase-common:20.3.3] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\04618219489c9d9e3066293e05e86ee0\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:27:13-72
+90            android:directBootAware="true"
+90-->[com.google.firebase:firebase-common:20.3.3] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\04618219489c9d9e3066293e05e86ee0\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:28:13-43
+91            android:exported="false"
+91-->[com.google.firebase:firebase-common:20.3.3] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\04618219489c9d9e3066293e05e86ee0\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:29:13-37
+92            android:initOrder="100" />
+92-->[com.google.firebase:firebase-common:20.3.3] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\04618219489c9d9e3066293e05e86ee0\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:30:13-36
+93
+94        <activity
+94-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\db87ff055a94702a7b1149594e6a0146\transformed\jetified-play-services-auth-20.6.0\AndroidManifest.xml:23:9-27:75
+95            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+95-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\db87ff055a94702a7b1149594e6a0146\transformed\jetified-play-services-auth-20.6.0\AndroidManifest.xml:24:13-93
+96            android:excludeFromRecents="true"
+96-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\db87ff055a94702a7b1149594e6a0146\transformed\jetified-play-services-auth-20.6.0\AndroidManifest.xml:25:13-46
+97            android:exported="false"
+97-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\db87ff055a94702a7b1149594e6a0146\transformed\jetified-play-services-auth-20.6.0\AndroidManifest.xml:26:13-37
+98            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+98-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\db87ff055a94702a7b1149594e6a0146\transformed\jetified-play-services-auth-20.6.0\AndroidManifest.xml:27:13-72
+99        <!--
+100            Service handling Google Sign-In user revocation. For apps that do not integrate with
+101            Google Sign-In, this service will never be started.
+102        -->
+103        <service
+103-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\db87ff055a94702a7b1149594e6a0146\transformed\jetified-play-services-auth-20.6.0\AndroidManifest.xml:33:9-37:51
+104            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+104-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\db87ff055a94702a7b1149594e6a0146\transformed\jetified-play-services-auth-20.6.0\AndroidManifest.xml:34:13-89
+105            android:exported="true"
+105-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\db87ff055a94702a7b1149594e6a0146\transformed\jetified-play-services-auth-20.6.0\AndroidManifest.xml:35:13-36
+106            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+106-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\db87ff055a94702a7b1149594e6a0146\transformed\jetified-play-services-auth-20.6.0\AndroidManifest.xml:36:13-107
+107            android:visibleToInstantApps="true" />
+107-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\db87ff055a94702a7b1149594e6a0146\transformed\jetified-play-services-auth-20.6.0\AndroidManifest.xml:37:13-48
+108
+109        <activity
+109-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\b71ef279c1683b5749acb2f0aa91f82a\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+110            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+110-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\b71ef279c1683b5749acb2f0aa91f82a\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+111            android:exported="false"
+111-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\b71ef279c1683b5749acb2f0aa91f82a\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+112            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+112-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\b71ef279c1683b5749acb2f0aa91f82a\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+113
+114        <receiver
+114-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\9cec9340120192a36e4fbcb9f8366ac9\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:29:9-33:20
+115            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+115-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\9cec9340120192a36e4fbcb9f8366ac9\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:30:13-85
+116            android:enabled="true"
+116-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\9cec9340120192a36e4fbcb9f8366ac9\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:31:13-35
+117            android:exported="false" >
+117-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\9cec9340120192a36e4fbcb9f8366ac9\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:32:13-37
+118        </receiver>
+119
+120        <service
+120-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\9cec9340120192a36e4fbcb9f8366ac9\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:35:9-38:40
+121            android:name="com.google.android.gms.measurement.AppMeasurementService"
+121-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\9cec9340120192a36e4fbcb9f8366ac9\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:36:13-84
+122            android:enabled="true"
+122-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\9cec9340120192a36e4fbcb9f8366ac9\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:37:13-35
+123            android:exported="false" />
+123-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\9cec9340120192a36e4fbcb9f8366ac9\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:38:13-37
+124        <service
+124-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\9cec9340120192a36e4fbcb9f8366ac9\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:39:9-43:72
+125            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+125-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\9cec9340120192a36e4fbcb9f8366ac9\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:40:13-87
+126            android:enabled="true"
+126-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\9cec9340120192a36e4fbcb9f8366ac9\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:41:13-35
+127            android:exported="false"
+127-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\9cec9340120192a36e4fbcb9f8366ac9\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:42:13-37
+128            android:permission="android.permission.BIND_JOB_SERVICE" />
+128-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\9cec9340120192a36e4fbcb9f8366ac9\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:43:13-69
+129
+130        <meta-data
+130-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\4c98ac1678e91268ed33f9d3ff7f04ab\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:21:9-23:69
+131            android:name="com.google.android.gms.version"
+131-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\4c98ac1678e91268ed33f9d3ff7f04ab\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:22:13-58
+132            android:value="@integer/google_play_services_version" />
+132-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\4c98ac1678e91268ed33f9d3ff7f04ab\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:23:13-66
+133
+134        <provider
+134-->[androidx.emoji2:emoji2:1.0.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\917183cb484c5d05637f617d5972f589\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+135            android:name="androidx.startup.InitializationProvider"
+135-->[androidx.emoji2:emoji2:1.0.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\917183cb484c5d05637f617d5972f589\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+136            android:authorities="com.foodproject.androidx-startup"
+136-->[androidx.emoji2:emoji2:1.0.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\917183cb484c5d05637f617d5972f589\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+137            android:exported="false" >
+137-->[androidx.emoji2:emoji2:1.0.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\917183cb484c5d05637f617d5972f589\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+138            <meta-data
+138-->[androidx.emoji2:emoji2:1.0.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\917183cb484c5d05637f617d5972f589\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+139                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+139-->[androidx.emoji2:emoji2:1.0.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\917183cb484c5d05637f617d5972f589\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+140                android:value="androidx.startup" />
+140-->[androidx.emoji2:emoji2:1.0.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\917183cb484c5d05637f617d5972f589\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+141            <meta-data
+141-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\f479eb7a3dc97eecd3d998321b7cd73d\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+142                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+142-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\f479eb7a3dc97eecd3d998321b7cd73d\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+143                android:value="androidx.startup" />
+143-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\f479eb7a3dc97eecd3d998321b7cd73d\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+144        </provider>
+145
+146        <meta-data
+146-->[com.facebook.soloader:soloader:0.10.5] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\3019da999cc2320dc750092c570bfcb2\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:12:9-14:37
+147            android:name="com.facebook.soloader.enabled"
+147-->[com.facebook.soloader:soloader:0.10.5] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\3019da999cc2320dc750092c570bfcb2\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:13:13-57
+148            android:value="false" />
+148-->[com.facebook.soloader:soloader:0.10.5] C:\Users\vaibhav sharma\.gradle\caches\transforms-3\3019da999cc2320dc750092c570bfcb2\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:14:13-34
+149    </application>
+150
+151</manifest>

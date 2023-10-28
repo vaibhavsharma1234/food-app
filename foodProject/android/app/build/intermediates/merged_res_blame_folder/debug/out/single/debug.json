@@ -1,0 +1,106 @@
+[
+    {
+        "merged": "com.foodproject.app-merged_res-36:/drawable-mdpi_src_images_delete.png.flat",
+        "source": "com.foodproject.app-main-38:/drawable-mdpi/src_images_delete.png"
+    },
+    {
+        "merged": "com.foodproject.app-merged_res-36:/drawable-mdpi_src_images_eventplanner.png.flat",
+        "source": "com.foodproject.app-main-38:/drawable-mdpi/src_images_eventplanner.png"
+    },
+    {
+        "merged": "com.foodproject.app-merged_res-36:/drawable-hdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.foodproject.app-main-38:/drawable-hdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "C:\\Users\\vaibhav sharma\\.gradle\\daemon\\8.0.1\\com.foodproject.app-merged_res-36:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\vaibhav sharma\\.gradle\\daemon\\8.0.1\\com.foodproject.app-main-38:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\vaibhav sharma\\.gradle\\daemon\\8.0.1\\com.foodproject.app-merged_res-36:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\vaibhav sharma\\.gradle\\daemon\\8.0.1\\com.foodproject.app-main-38:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "com.foodproject.app-merged_res-36:/drawable-xhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.foodproject.app-main-38:/drawable-xhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.foodproject.app-merged_res-36:/drawable-mdpi_src_images_items.png.flat",
+        "source": "com.foodproject.app-main-38:/drawable-mdpi/src_images_items.png"
+    },
+    {
+        "merged": "com.foodproject.app-merged_res-36:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.foodproject.app-main-38:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.foodproject.app-merged_res-36:/drawable-mdpi_src_images_logout.png.flat",
+        "source": "com.foodproject.app-main-38:/drawable-mdpi/src_images_logout.png"
+    },
+    {
+        "merged": "C:\\Users\\vaibhav sharma\\.gradle\\daemon\\8.0.1\\com.foodproject.app-merged_res-36:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\vaibhav sharma\\.gradle\\daemon\\8.0.1\\com.foodproject.app-main-38:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "com.foodproject.app-merged_res-36:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backiconmask.png.flat",
+        "source": "com.foodproject.app-main-38:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backiconmask.png"
+    },
+    {
+        "merged": "com.foodproject.app-merged_res-36:/drawable-mdpi_src_images_dance.png.flat",
+        "source": "com.foodproject.app-main-38:/drawable-mdpi/src_images_dance.png"
+    },
+    {
+        "merged": "C:\\Users\\vaibhav sharma\\.gradle\\daemon\\8.0.1\\com.foodproject.app-merged_res-36:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\vaibhav sharma\\.gradle\\daemon\\8.0.1\\com.foodproject.app-main-38:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "com.foodproject.app-merged_res-36:/drawable-mdpi_src_images_editing.png.flat",
+        "source": "com.foodproject.app-main-38:/drawable-mdpi/src_images_editing.png"
+    },
+    {
+        "merged": "C:\\Users\\vaibhav sharma\\.gradle\\daemon\\8.0.1\\com.foodproject.app-merged_res-36:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\vaibhav sharma\\.gradle\\daemon\\8.0.1\\com.foodproject.app-main-38:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "com.foodproject.app-merged_res-36:/drawable-mdpi_src_images_note.png.flat",
+        "source": "com.foodproject.app-main-38:/drawable-mdpi/src_images_note.png"
+    },
+    {
+        "merged": "com.foodproject.app-merged_res-36:/drawable-xxxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.foodproject.app-main-38:/drawable-xxxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "C:\\Users\\vaibhav sharma\\.gradle\\daemon\\8.0.1\\com.foodproject.app-merged_res-36:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\vaibhav sharma\\.gradle\\daemon\\8.0.1\\com.foodproject.app-main-38:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "com.foodproject.app-merged_res-36:/drawable-mdpi_src_images_add.png.flat",
+        "source": "com.foodproject.app-main-38:/drawable-mdpi/src_images_add.png"
+    },
+    {
+        "merged": "com.foodproject.app-merged_res-36:/drawable-xxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.foodproject.app-main-38:/drawable-xxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "C:\\Users\\vaibhav sharma\\.gradle\\daemon\\8.0.1\\com.foodproject.app-merged_res-36:\\drawable_rn_edit_text_material.xml.flat",
+        "source": "C:\\Users\\vaibhav sharma\\.gradle\\daemon\\8.0.1\\com.foodproject.app-main-38:\\drawable\\rn_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\vaibhav sharma\\.gradle\\daemon\\8.0.1\\com.foodproject.app-merged_res-36:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\vaibhav sharma\\.gradle\\daemon\\8.0.1\\com.foodproject.app-main-38:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\vaibhav sharma\\.gradle\\daemon\\8.0.1\\com.foodproject.app-merged_res-36:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\vaibhav sharma\\.gradle\\daemon\\8.0.1\\com.foodproject.app-main-38:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "com.foodproject.app-merged_res-36:/drawable-mdpi_src_images_coding.png.flat",
+        "source": "com.foodproject.app-main-38:/drawable-mdpi/src_images_coding.png"
+    },
+    {
+        "merged": "C:\\Users\\vaibhav sharma\\.gradle\\daemon\\8.0.1\\com.foodproject.app-merged_res-36:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\vaibhav sharma\\.gradle\\daemon\\8.0.1\\com.foodproject.app-main-38:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\vaibhav sharma\\.gradle\\daemon\\8.0.1\\com.foodproject.app-merged_res-36:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\vaibhav sharma\\.gradle\\daemon\\8.0.1\\com.foodproject.app-main-38:\\mipmap-hdpi\\ic_launcher.png"
+    }
+]
